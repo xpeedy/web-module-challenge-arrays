@@ -46,7 +46,8 @@ Use the copy function below to do the following:
 */
 
 function copy(/*your code here*/){
-    /*your code here*/
+    console.log(copy)
+    
 }    
 
 
