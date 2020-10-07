@@ -45,10 +45,11 @@ Use the copy function below to do the following:
     2. Return the new array that holds an exact copy of the old array  
 */
 
-function copy(/*your code here*/){
-    console.log(copy)
-    
-}    
+function copy(arr/*your code here*/){
+    return [...arr];
+}
+const copyCat = copy(originalFlavors);
+console.log(copyCat);    
 
 
 
